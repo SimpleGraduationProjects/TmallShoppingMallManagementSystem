@@ -43,7 +43,7 @@
   <bean name="ds"
         class="com.mchange.v2.c3p0.ComboPooledDataSource">
     <property name="driverClass" value="com.mysql.jdbc.Driver" />
-    <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/small?characterEncoding=UTF-8" />
+    <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/graduation_small?characterEncoding=UTF-8" />
     <property name="user" value="root" />
     <property name="password" value="123456" />
     <!--连接池中保留的最小连接数。-->
